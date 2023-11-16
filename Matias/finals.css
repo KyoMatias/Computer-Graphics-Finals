@@ -1,0 +1,33 @@
+.graph-canvas {
+    width: 100%;
+    margin: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+}
+
+.graph {
+    height: 20px;
+    margin-bottom: 10px;
+    width: 0;
+    background-color: #b134db;
+    animation: length 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s alternate  5;
+}
+
+
+.graph.bar { background-color:rgb(224, 170, 255); animation-delay: 0.8s; }
+.graph.bar1 { background-color: rgb(199, 125, 255); animation-delay: 0.2s; }
+.graph.bar2 { background-color:rgb(157, 78, 221); animation-delay: 3s; }
+.graph.bar3 { background-color: rgb(123, 44, 191); animation-delay: 2.2s; }
+.graph.bar4 { background-color: rgb(90, 24, 154); animation-delay: 1.1s; }
+.graph.bar5 { background-color: rgb(60, 9, 108); animation-delay: 1s; }
+.graph.bar6 { background-color: rgb(936, 0, 70); animation-delay: 0.3s; }
+.graph.bar7 { background-color: rgb(16, 0, 43); animation-delay: 4s; }
+
+
+@keyframes length {
+    to {
+        width: 70%;
+    }
+}

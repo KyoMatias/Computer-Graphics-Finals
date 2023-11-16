@@ -2,24 +2,48 @@
 <html>
 <body>
 
+<link rel="stylesheet" href="finals.css">
+<script src="finals.js" defer></script>
+
 <h1>Final Project</h1>
 <p>Kyo Matias</p>
 
 <div class ="effect1">
-    <h1>Effect 1</h1>
-    <button id = "effect1" class = "btn1"><h1>Effect 1</h1></button>
+    <h1>Effect 1: Circle</h1>
+    <button  onclick="toggleE1()" id = "effect1" class = "btn1"><h1>Effect 1</h1></button>
 </div>
 <br>
 <div class ="effect2">
-    <h1>Effect 2</h1>
-    <button id = "effect2" class = "btn2"><h1>Effect 2</h1></button>
+    <h1>Effect 2: Dots</h1>
+    <button onclick= "toggleE2()" id = "effect2" class = "btn2"><h1>Effect 2</h1></button>
 </div>
 <br>
 <div class ="effect3">
-    <h1>Effect 3</h1>
-    <button id = "effect3" class = "btn3"><h1>Effect 3</h1></button>
+    <h1>Effect 3: Graphs</h1>
+    <button onclick= "toggleE3()" id = "effect3" class = "btn3"><h1>Effect 3</h1></button>
 </div>
 
+<div id="canvas" class = "canvas">
+    <div id="ef1" class = "ef1">
+        <div class="load-buffer-circle"></div>
+    </div>
+    <div id="ef2" class = "ef2">
+        <div class="dotload"></div>
+        <div class="dotload"></div>
+        <div class="dotload"></div>
+    </div>
+    <div id="ef3" class = "ef3">
+        <div class="graph-canvas">
+            <div class="graph bar"></div>
+            <div class="graph bar1"></div>
+            <div class="graph bar2"></div>
+            <div class="graph bar3"></div>
+            <div class="graph bar4"></div>
+            <div class="graph bar5"></div>
+            <div class="graph bar6"></div>
+            <div class="graph bar7"></div>
+    </div>
+</div>
 
 
 </body>
