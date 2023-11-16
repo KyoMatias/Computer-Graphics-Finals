@@ -59,6 +59,12 @@
 }
 
 
+.ef2 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
 
 .dotload {
     width: 40px;
@@ -92,12 +98,4 @@
         transform: translateY(-10px);
         box-shadow: 0px 0px 20px #34b4db
     }
-}
-.ef2 {
-    display: none;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
 }
