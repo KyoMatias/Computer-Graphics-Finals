@@ -15,7 +15,7 @@ function toggleE2() {
     }
 }
 function toggleE3() {
-    var E3div = document.getElementById('ef1');
+    var E3div = document.getElementById('ef3');
     if (E3div.style.display === 'none' || E3div.style.display === '') {
         E3div.style.display = 'block';
     } else {
